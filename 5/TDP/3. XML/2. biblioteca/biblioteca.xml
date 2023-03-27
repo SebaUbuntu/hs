@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libri SYSTEM "biblioteca.dtd">
+<libri>
+    <libro isbn="978-8893675055" titolo="CiccioGamer89 Presenta Fortnite. Trucchi e Segreti">
+        <autore nome="Ciccio" cognome="gamer89" />
+    </libro>
+    <libro isbn="978-8891835734" titolo="Non è come sembra">
+        <autore nome="Alessia" cognome="Lanza" />
+    </libro>
+</libri>

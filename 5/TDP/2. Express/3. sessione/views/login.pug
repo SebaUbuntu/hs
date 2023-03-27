@@ -1,0 +1,11 @@
+html
+	head
+		title Login
+	body
+		form(action="/login" method="post")
+			h2 Login
+				input(type="text" name="username" id="username" placeholder="Username")
+				input(type="password" name="password" id="password" placeholder="Password")
+			input(type="submit" value="Login")
+		form(action="/register" method="get")
+			input(type="submit" value="Register")

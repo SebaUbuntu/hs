@@ -1,0 +1,48 @@
+@import url('/css/common.css');
+
+/* Style del form */
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+	max-width: 500px;
+}
+
+label {
+	font-weight: bold;
+}
+
+input[type="text"],
+select,
+input[type="number"] {
+	padding: 5px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button[type="submit"] {
+	padding: 10px;
+	font-size: 16px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+/* Style per il messaggio di successo */
+#success-message {
+	margin-top: 20px;
+	padding: 10px;
+	font-size: 18px;
+	color: #155724;
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+	border-radius: 4px;
+}

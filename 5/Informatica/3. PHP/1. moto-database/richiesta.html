@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Richiesta informazioni dal database</title>
+<script type="text/javascript">
+    function controlla() {
+        if(document.getElementById("marca").value==="") {
+          alert("Inserire una marca");
+          return false;
+        }
+    }
+</script>
+</head>
+
+<body>
+ <p>Richiesta</p>
+ <form id="formRichiesta" name="formRichiesta" method="get" action="visualizza.php">
+   <label>Marca
+     <input type="text" name="marca" id="marca" value="honda" />
+   </label>
+   <p>
+   <input type="submit" name="ok" id="ok" onclick="return controlla()" />
+   <label>
+   <input type="reset" name="reset" id="reset" />
+   </label>
+   </p>
+ </form>
+</body>
+</html>

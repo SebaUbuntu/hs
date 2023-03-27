@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login - Fantacalcio</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="js/topbar.js" type="module"></script>
+	</div>
+
+	<div id="main-content">
+		<p>Non sei registrato? <a id="register-link" href="register.html">Registrati</a></p>
+
+		<div id="login-form">
+			<form action="../server/login.php" method="post">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" placeholder="Inserisci username" required />
+				<br>
+
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder="Inserisci password" required />
+				<br>
+
+				<input type="submit" value="Login" />
+			</form>
+		</div>
+	</div>
+
+	<script src="js/login.js" type="module"></script>
+</body>
+
+</html>

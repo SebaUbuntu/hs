@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "///",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "/": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "quartacinfmod:baba",
+    "count": 1
+  }
+}

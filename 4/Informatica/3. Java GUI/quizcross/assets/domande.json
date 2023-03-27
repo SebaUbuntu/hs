@@ -1,0 +1,45 @@
+{
+    "STORIA": [
+        {
+            "domanda": "domanda1",
+            "risposta": "a"
+        },
+        {
+            "domanda": "domanda2",
+            "opzioni": [
+                "r1"
+            ],
+            "risposta": "r1"
+        }
+    ],
+    "INFORMATICA": [
+        {
+            "domanda": "domanda1",
+            "opzioni": [
+                "r1",
+                "r2",
+                "..."
+            ],
+            "risposta": "r1"
+        },
+        {
+            "domanda": "domanda2",
+            "risposta": "r1"
+        }
+    ],
+    "SPORT": [
+        {
+            "domanda": "domanda1",
+            "opzioni": [
+                "r1",
+                "r2",
+                "..."
+            ],
+            "risposta": "r1"
+        },
+        {
+            "domanda": "domanda2",
+            "risposta": "r1"
+        }
+    ]
+}

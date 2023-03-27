@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Blackjack</title>
+	<link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="info-container" id="dealerInfo">
+		<div class="cards-container" id="dealerCards"></div>
+		<p id="dealerScoreTextbox"></p>
+	</div>
+
+	<div id="gameControls">
+		<p id="messageTextbox"></p>
+		<div id="gameButtons">
+			<button id="newGameButton">Nuova Partita</button>
+			<br>
+			<button id="hitUserButton">Pesca</button>
+			<button id="standUserButton">Fermati</button>
+		</div>
+	</div>
+
+	<div class="info-container" id="playerInfo">
+		<p id="playerScoreTextbox"></p>
+		<div class="cards-container" id="playerCards"></div>
+	</div>
+
+	<script src="/socket.io/socket.io.js"></script>
+	<script type="module" src="js/blackjack.js"></script>
+</body>
+
+</html>

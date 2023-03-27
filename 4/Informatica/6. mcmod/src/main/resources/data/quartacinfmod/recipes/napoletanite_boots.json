@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "# #",
+    "# #"
+  ],
+  "pattern": [
+    "# #",
+    "# #",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "quartacinfmod:napoletanite_ingot"
+    }
+  },
+  "result": {
+    "item": "quartacinfmod:napoletanite_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "quartacinfmod:napoletanite_pickaxe"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_shovel"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_axe"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_hoe"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_sword"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_helmet"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_chestplate"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_leggings"
+    },
+    {
+      "item": "quartacinfmod:napoletanite_boots"
+    }
+  ],
+  "result": "quartacinfmod:napoletanite",
+  "experience": 2.0,
+  "cookingtime": 500
+}

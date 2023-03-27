@@ -1,0 +1,26 @@
+{
+  "funiculi_funicula_music": {
+    "sounds": [
+      {
+        "name": "quartacinfmod:funiculi_funicula_music",
+        "stream": true
+      }
+    ]
+  },
+  "tarantella_music": {
+    "sounds": [
+      {
+        "name": "quartacinfmod:tarantella_music",
+        "stream": true
+      }
+    ]
+  },
+  "inno_napoli_music": {
+    "sounds": [
+      {
+        "name": "quartacinfmod:inno_napoli_music",
+        "stream": true
+      }
+    ]
+  }
+}

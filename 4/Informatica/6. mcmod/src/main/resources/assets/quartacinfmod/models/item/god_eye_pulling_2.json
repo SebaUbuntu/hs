@@ -1,0 +1,6 @@
+{
+  "parent": "quartacinfmod:item/god_eye",
+  "textures": {
+    "layer0": "quartacinfmod:item/god_eye_pulling_2"
+  }
+}

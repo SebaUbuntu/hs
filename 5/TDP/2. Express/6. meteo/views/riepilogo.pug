@@ -1,0 +1,20 @@
+html
+	head
+		title Riepilogo
+	body
+		table
+			tr
+				th Città
+				th Min
+				th Max
+				th Media
+			each temp in temperature
+				tr
+					td= temp.citta
+					td= temp.minTemp
+					td= temp.maxTemp
+					td= temp.mediaTemp
+		br
+		br
+		a(href="index.html")
+			button Home

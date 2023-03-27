@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+    "textures": {
+      "layer0": "quartacinfmod:item/inno_napoli_music_disc"
+  }
+}

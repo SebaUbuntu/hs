@@ -1,0 +1,30 @@
+@import url('/css/common.css');
+
+.ristorante {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	padding: 12px 24px;
+	margin: 0 auto;
+}
+
+.ristorante:hover {
+	background-color: #eee;
+}
+
+.ristorante-nome {
+	font-size: 28px;
+	margin-top: 0;
+}
+
+.ristorante-provincia {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.ristorante-indirizzo,
+.ristorante-anno-apertura,
+.ristorante-specialita {
+	margin-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libri SYSTEM "libri.dtd">
+<libri aggiornamento="25/11/2009">
+  <libreria nome="Librissimi" indirizzo="Via Adda, 3" />
+  <libro codice="id0001"> 
+    <autore>J.K. Rowlings</autore> 
+    <titolo>Harry Potter e la pietra filosofale</titolo> 
+    <editore anno="1997">Salani</editore> 
+  </libro>
+  <libro codice="id0002"> 
+    <autore>J.R. Tolkien</autore>
+    <autore>J.R. Tolkien</autore>
+    <titolo>Il signore degli Anelli</titolo> 
+    <editore>Bompiani</editore>
+    <prezzo valuta="euro">24</prezzo> 
+  </libro>
+</libri>

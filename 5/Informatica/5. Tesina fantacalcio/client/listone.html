@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Listone - Fantacalcio</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/listone.css" />
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="js/topbar.js" type="module"></script>
+	</div>
+
+	<div id="main-content">
+		<h2>Giocatori</h2>
+		<div id="ricerca">
+			<!-- Posizione, nazionalità, nome -->
+			
+			<div>
+				<label for="posizione">Posizione</label>
+				<select name="posizione" id="posizione">
+					<option value="Tutte" selected>Tutte</option>
+					<option value="P">Portiere</option>
+					<option value="D">Difensore</option>
+					<option value="C">Centrocampista</option>
+					<option value="A">Attaccante</option>
+				</select>
+
+				<label for="nazionalita">Nazionalità</label>
+				<select name="nazionalita" id="nazionalita">
+					<option value="Tutte" selected>Tutte</option>
+				</select>
+
+				<label for="cognome-nome">Nome</label>
+				<input type="text" name="cognome-nome" id="cognome-nome" placeholder="Inserisci nome" />
+			</div>
+
+			<button id="cerca">Cerca</button>
+		</div>
+		<div id="lista-giocatori">
+			<p>Caricamento...</p>
+		</div>
+	</div>
+
+	<script src="js/listone.js" type="module"></script>
+</body>
+
+</html>

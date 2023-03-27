@@ -1,0 +1,49 @@
+@import url('common.css');
+
+/* Main Content */
+#main-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+#asta-main {
+	flex: 70%;
+}
+
+#info-fantasquadre {
+	width: 30%;
+}
+
+/* Info Fantasquadre */
+#info-fantasquadre {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#info-fantasquadre h2 {
+	font-size: 24px;
+}
+
+#fantasquadre {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 20px;
+}
+
+.fantasquadra {
+	margin-bottom: 10px;
+}
+
+.fantasquadra p {
+	margin-bottom: 5px;
+}
+
+.fantasquadra ul {
+	padding-left: 20px;
+}
+
+.fantasquadra li {
+	margin-bottom: 5px;
+}

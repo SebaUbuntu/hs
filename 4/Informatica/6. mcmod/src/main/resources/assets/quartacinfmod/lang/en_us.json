@@ -1,0 +1,37 @@
+{
+	"item.quartacinfmod.icon_item": "Icon Item",
+	"itemGroup.quartacinfmod": "4C INF",
+
+	"item.quartacinfmod.diamond_nugget": "Diamond Nugget",
+	"item.quartacinfmod.napoletanite_ingot": "Napoletanite Ingot",
+	"item.quartacinfmod.god_eye": "God's Eye",
+	"item.quartacinfmod.coal_coke": "Coal Coke",
+	"item.quartacinfmod.napoletanite": "Napoletanite",
+	"block.quartacinfmod.napoletanite_ore": "Napoletanite Ore",
+	"block.quartacinfmod.coal_coke_ore": "Coal coke ore",
+
+	"item.quartacinfmod.napoletanite_pickaxe": "Neapolitan Pickaxe",
+	"item.quartacinfmod.napoletanite_axe": "Neapolitan Axe",
+	"item.quartacinfmod.napoletanite_sword": "Neapolitan Sword",
+	"item.quartacinfmod.napoletanite_shovel": "Neapolitan Shovel",
+	"item.quartacinfmod.napoletanite_hoe": "Neapolitan Hoe",
+
+	"item.quartacinfmod.tarantella_music_disc": "Tarantella Napoletana",
+	"item.quartacinfmod.tarantella_music_disc.desc": "UEEEEEE UAJOOOOOO FORZA NAPOLIIIIIIIII",
+	"item.quartacinfmod.funiculi_funicula_music_disc": "Funiculì funiculà",
+	"item.quartacinfmod.funiculi_funicula_music_disc.desc": "UEEEEEE UAJOOOOOO FORZA NAPOLIIIIIIIII",
+	"item.quartacinfmod.inno_napoli_music_disc": "SSC Napoli Anthem",
+	"item.quartacinfmod.inno_napoli_music_disc.desc": "UEEEEEE UAJOOOOOO FORZA NAPOLIIIIIIIII",
+
+	"item.quartacinfmod.napoletanite_helmet": "Neapolitan Helmet",
+	"item.quartacinfmod.napoletanite_chestplate": "Neapolitan Chestplate",
+	"item.quartacinfmod.napoletanite_leggings": "Neapolitan Leggings",
+	"item.quartacinfmod.napoletanite_boots": "Neapolitan Boots",
+	"item.quartacinfmod.napoletanite_watch": "Neapolitan Watch",
+
+	"item.quartacinfmod.pastiera": "Neapolitan Pastiera",
+	"item.quartacinfmod.baba": "Neapolitan Baba",
+
+	"entity.quartacinfmod.maradona" : "Maradona",
+	"item.quartacinfmod.maradona_spawn_egg" : "Maradona Spawn Egg"
+}

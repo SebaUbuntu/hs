@@ -1,0 +1,12 @@
+# AutoVeicoloGas: primi 5 anni gratis, poi potenza * AutoVeicoloGas{GPL|Metano}
+AutoVeicoloGasGPL=0.75
+AutoVeicoloGasMetano=0.5
+
+# AutoVeicoloIdrogeno: (anno corrente - anno) * AutoVeicoloIdrogeno
+AutoVeicoloIdrogeno=0.1
+
+# AutoVeicoloTradizionale: potenza * AutoVeicoloTradizionale
+AutoVeicoloTradizionale=2.5
+
+# MotoVeicolo: potenza * MotoVeicolo
+MotoVeicolo=1.5

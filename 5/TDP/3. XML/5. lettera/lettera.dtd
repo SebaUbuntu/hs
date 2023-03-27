@@ -1,0 +1,10 @@
+<!ELEMENT lettera (mittente, data, destinatario, oggetto, saluto, corpo, chiusura, firma)>
+<!ELEMENT mittente (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT destinatario (#PCDATA)>
+<!ELEMENT oggetto (#PCDATA)>
+<!ELEMENT saluto (#PCDATA)>
+<!ELEMENT corpo (paragrafo+)>
+<!ELEMENT chiusura (#PCDATA)>
+<!ELEMENT firma (#PCDATA)>
+<!ELEMENT paragrafo (#PCDATA)>

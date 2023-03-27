@@ -1,0 +1,12 @@
+ATTENZIONE
+Per ovviare al problema dell'errore "ERROR 2013 (HY000) (lost connection to mysql)" attenersi a quanto segue!
+
+Per importare ed eseguire correttamente questo script bisogna:
+
+1) Modificare il valore della chiave max_allowed_packet = 100M inclusa nel file my.ini (C:\xampp\mysql\bin\my.ini):
+2) RIAVVIARE IL SERVER MYSQL col pannello di controllo di xampp
+3) Scompattare cinemaDati.zip per ottenere cinemaDati.sql
+4) Entrare in phpMyAdmin e importare il file cinemaDdl.sql (senza creare il db)
+5) eseguire il file Importa cinemaDati.bat
+
+

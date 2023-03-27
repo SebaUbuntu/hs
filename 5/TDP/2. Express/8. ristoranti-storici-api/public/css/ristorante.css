@@ -1,0 +1,15 @@
+@import url('/css/common.css');
+
+.recensione {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	padding: 12px 24px;
+	margin: 24px auto;
+}
+
+.recensione-info {
+	display: flex;
+	justify-content: space-between;
+}

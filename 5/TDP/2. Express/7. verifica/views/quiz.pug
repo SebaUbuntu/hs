@@ -1,0 +1,28 @@
+html
+	head
+		title Quiz
+	body
+		h1 Quiz
+
+		form(action="/send_quiz", method="post")
+			label(for="nome") Nome: 
+			input#nome(type="text", name="nome" required)
+			br
+			label(for="cognome") Cognome: 
+			input#cognome(type="text", name="cognome" required)
+			br
+			br
+
+			each domanda in domande
+				- let domandaIndex = domande.indexOf(domanda)
+				label= domanda.domanda
+				br
+				each risposta in domanda.risposte
+					- let rispostaIndex = domanda.risposte.indexOf(risposta)
+					- let inputId = domandaIndex + "_" + rispostaIndex;
+					input(type="radio", name=domandaIndex, id=inputId, value=rispostaIndex)
+					label(for=inputId)= risposta
+					br
+				br
+
+			input(type="submit" value="Invia" name="submit")

@@ -1,0 +1,14 @@
+html
+	head
+		title Giochi
+	body 
+		h1 Benvenuto #{username}!
+		h2 Seleziona un gioco 
+		form(action="/snake", method="get")
+			input(type="submit", value="Snake")
+		form(action="/pratofiorito", method="get")
+			input(type="submit", value="Prato Fiorito")
+		form(action="/classifica", method="get")
+			input(type="submit", value="classifica")
+		form(action="/logout", method="delete")
+			input(type="submit", value="Logout")

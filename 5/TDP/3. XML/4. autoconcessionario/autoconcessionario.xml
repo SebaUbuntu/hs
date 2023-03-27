@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autovetture SYSTEM "autoconcessionario.dtd">
+<autovetture>
+    <autovettura>
+        <targa>AB123CD</targa>
+        <colore>Blu</colore>
+        <anno_immatricolazione>2009</anno_immatricolazione>
+        <chilometraggio_attuale>100000</chilometraggio_attuale>
+    </autovettura>
+</autovetture>

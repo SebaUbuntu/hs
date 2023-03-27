@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+	<book>
+		<entry isbn="isbn_1-55860-622-X">
+			<title>Data on the Web:...</title>
+			<publisher>Morgan Kaufmann</publisher>
+		</entry>
+		<author>Serge Abiteboul</author>
+		<articleLink href="http://…/articles.xml#id(Abi97)" />
+	</book>
+	<book>
+		<entry isbn="isbn_0-201-53771-O">
+			<title>Foundation of Databases</title>
+			<publisher>Addison Wesley</publisher>
+		</entry>
+		<author> Serge Abiteboul</author>
+	</book>
+</books>

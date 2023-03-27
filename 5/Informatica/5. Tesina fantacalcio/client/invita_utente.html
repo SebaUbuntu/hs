@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Invita utente - Fantacalcio</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/invita_utente.css" />
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="js/topbar.js" type="module"></script>
+	</div>
+
+	<div id="main-content">
+		<div id="invita-utente-form">
+			<form action="../server/invita_utente.php" method="post">
+				<label for="username_or_email">Username o email utente</label>
+                <input type="text" name="username_or_email" id="username_or_email" placeholder="Inserisci username o email" required />
+                <br>
+
+				<input type="submit" value="Invita" />
+			</form>
+		</div>
+	</div>
+
+	<script src="js/invita_utente.js" type="module"></script>
+</body>
+
+</html>

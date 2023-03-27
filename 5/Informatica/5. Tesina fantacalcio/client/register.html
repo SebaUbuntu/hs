@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registrazione - Fantacalcio</title>
+	<link rel="icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/register.css" />
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="js/topbar.js" type="module"></script>
+	</div>
+
+	<div id="main-content">
+		<p>Sei già un utente? <a id="login-link" href="login.html">Effettua il login</a></p>
+
+		<div id="register-form">
+			<form>
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" placeholder="Inserisci username" required />
+				<br>
+
+				<label for="nome">Nome</label>
+				<input type="text" name="nome" id="nome" placeholder="Inserisci nome" required />
+				<br>
+
+				<label for="cognome">Cognome</label>
+				<input type="text" name="cognome" id="cognome" placeholder="Inserisci cognome" required />
+				<br>
+
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="Inserisci email" required />
+				<br>
+
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder="Inserisci password" required />
+				<br>
+
+				<input type="submit" value="Registrati" />
+			</form>
+		</div>
+	</div>
+
+	<script src="js/register.js" type="module"></script>
+</body>
+
+</html>

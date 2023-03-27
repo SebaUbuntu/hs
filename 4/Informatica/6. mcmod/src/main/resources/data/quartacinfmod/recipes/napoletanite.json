@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "   ",
+    "   "
+  ],
+  "pattern": [
+    " # ",
+    "   ",
+    "   "
+  ],
+  "pattern": [
+    "  #",
+    "   ",
+    "   "
+  ],
+  "pattern": [
+    "   ",
+    "#  ",
+    "   "
+  ],
+  "pattern": [
+    "   ",
+    " # ",
+    "   "
+  ],
+  "pattern": [
+    "   ",
+    "  #",
+    "   "
+  ],
+  "pattern": [
+    "   ",
+    "   ",
+    "#  "
+  ],
+  "pattern": [
+    "   ",
+    "   ",
+    " # "
+  ],
+  "pattern": [
+    "   ",
+    "   ",
+    "  #"
+  ],
+  "key": {
+    "#": {
+      "item": "quartacinfmod:napoletanite_ingot"
+    }
+  },
+  "result": {
+    "item": "quartacinfmod:napoletanite",
+    "count": 6
+  }
+}

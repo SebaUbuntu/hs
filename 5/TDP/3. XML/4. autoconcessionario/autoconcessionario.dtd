@@ -1,0 +1,6 @@
+<!ELEMENT autovetture (autovettura+)>
+<!ELEMENT autovettura (targa, colore, anno_immatricolazione, chilometraggio_attuale)>
+<!ELEMENT targa (#PCDATA)>
+<!ELEMENT colore (#PCDATA)>
+<!ELEMENT anno_immatricolazione (#PCDATA)>
+<!ELEMENT chilometraggio_attuale (#PCDATA)>

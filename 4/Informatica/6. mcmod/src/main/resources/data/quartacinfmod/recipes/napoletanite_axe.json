@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "## ",
+    "#/ ",
+    " / "
+  ],
+  "pattern": [
+    " ##",
+    " /#",
+    " / "
+  ],
+  "key": {
+    "#": {
+      "item": "quartacinfmod:napoletanite_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "quartacinfmod:napoletanite_axe",
+    "count": 1
+  }
+}

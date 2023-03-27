@@ -1,0 +1,17 @@
+html
+    head
+        title Classifica
+    body
+        h1 Classifica
+        p L'utente che ha totalizzato più punti è #{userWithMaxPoints["username"]} con #{userWithMaxPoints["punti"]} punti
+        table
+            tr
+                th Utente
+                th Punti
+            tr
+
+            each utente in utenti
+                tr
+                    td #{utente.username}
+                    td #{utente.punti}
+                tr

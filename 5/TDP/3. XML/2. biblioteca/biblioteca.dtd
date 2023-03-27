@@ -1,0 +1,7 @@
+<!ELEMENT libri (libro+)>
+<!ELEMENT libro (autore+)>
+<!ELEMENT autore EMPTY>
+<!ATTLIST libro isbn CDATA #REQUIRED>
+<!ATTLIST libro titolo CDATA #REQUIRED>
+<!ATTLIST autore nome CDATA #REQUIRED>
+<!ATTLIST autore cognome CDATA #REQUIRED>

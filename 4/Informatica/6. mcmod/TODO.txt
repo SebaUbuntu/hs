@@ -1,0 +1,17 @@
+This file is meant to describe our ideas and what we'll do:
+
+- add napoletanite_ore generation in-world; V
+- add coal_coke_ore in Blocks.java; V
+- add coal_coke_ore generation in-world; V
+- add drops for those blocks; V
+- update textures for blocks; X
+- update textures for NAPOLETANITE_ARMOR pieces; V
+- try to add a new mob (f.e. an evil villager that steal things from your inventory, if possible; else think something); X
+- add tomato_crop for tomatoes; X
+- add mozzarella; X
+- add impasto; X
+- add pizza (tomato, mozzarella, impasto); X
+
+IF YOU HAVE ANY IDEA ADD IT HERE. :)
+
+HAVE FUN TESTING OUR MOD

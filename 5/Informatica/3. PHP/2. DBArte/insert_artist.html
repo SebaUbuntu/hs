@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Aggiungi artista</title>
+</head>
+
+<body>
+    <h1>Aggiungi artista</h1>
+    <form action="insert_artist.php" method="post">
+        <label for="AR_CodiceArtista">Codice artista</label>
+        <input type="text" name="AR_CodiceArtista" id="AR_CodiceArtista" required>
+        <br>
+        <label for="AR_Nome">Nome</label>
+        <input type="text" name="AR_Nome" id="AR_Nome" required>
+        <br>
+        <label for="AR_Alias">Alias</label>
+        <input type="text" name="AR_Alias" id="AR_Alias" required>
+        <br>
+        <label for="AR_DataNascita">Data nascita</label>
+        <input type="number" name="AR_DataNascita" id="AR_DataNascita" required>
+        <br>
+        <label for="AR_DataMorte">Data morte</label>
+        <input type="number" name="AR_DataMorte" id="AR_DataMorte" required>
+        <br>
+
+        <input type="submit" value="Aggiungi">
+    </form>
+</body>
+
+</html>

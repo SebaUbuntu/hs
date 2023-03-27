@@ -1,0 +1,13 @@
+html
+    head
+        title Aggiungi dati
+    body
+        form(action="/update_data" method="GET")
+            label(for="citta") Scegli una città:
+            select(id="citta" name="citta")
+                each temp in temperature
+                    option(value=temp.citta)= temp.citta
+
+            input(type="number" name="min" placeholder="Minima")
+            input(type="number" name="max" placeholder="Massima")
+            input(type="submit" value="Invia" name="submit")

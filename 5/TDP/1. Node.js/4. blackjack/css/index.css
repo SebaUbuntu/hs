@@ -1,0 +1,88 @@
+html,
+body {
+	box-sizing: border-box;
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	align-items: center;
+	background-image: url("../images/pannopoker.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+body>div {
+	flex: 1;
+}
+
+body>p {
+	color: white;
+}
+
+.info-container>p {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.cards-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.card {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	height: 100px;
+	margin: 16px;
+	width: 70px;
+	border-radius: 8px;
+	padding: 8px;
+}
+
+.card.hidden {
+	background-image: url("../images/retro_carta.jpg");
+	background-size: contain;
+}
+
+.card>p {
+	margin: 0px;
+	display: flex;
+}
+
+.card-top {
+	align-self: flex-start;
+	flex-grow: 1;
+}
+
+.card-bottom {
+	align-self: flex-end;
+}
+
+#gameButtons {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+#gameButtons>button {
+	background-color: black;
+	color: white;
+	font-size: 24px;
+}
+
+#gameButtons>button:disabled {
+	color: grey;
+}
+
+#gameControls>p {
+	color: white;
+}

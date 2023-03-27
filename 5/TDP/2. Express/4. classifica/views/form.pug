@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title Inserisci partita
+  body
+    h1 Inserisci partita
+
+    form(action='/form' method='post')
+      label(for='squadraCasa') Squadra di Casa:
+      select#squadraCasa(name='squadraCasa')
+        for squadra in squadre
+          option= squadra
+      label(for='goalCasa') Goal:
+      input(type='text' id='goalCasa' name='goalCasa')
+      br
+
+      label(for='squadraOspite') Squadra Ospite:
+      select#squadraOspite(name='squadraOspite')
+        for squadra in squadre
+          option= squadra
+      label(for='goalOspite') Goal:
+      input(type='text' id='goalOspite' name='goalOspite')
+      br
+
+      button(type='submit') Invia

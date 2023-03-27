@@ -1,0 +1,50 @@
+@import url('common.css');
+
+#info-squadra {
+	display: flex;
+	flex-direction: row;
+}
+
+#squadra-info {
+	overflow: hidden;
+	flex: 1;
+}
+
+#squadra-logo {
+	padding: 20px 0px;
+}
+
+#squadra-logo img {
+	width: 100%;
+	height: auto;
+}
+
+/* Data di nascita */
+tr th:nth-child(2),
+tr td:nth-child(2) {
+	text-align: center;
+}
+
+/* Posizione */
+tr th:nth-child(3),
+tr td:nth-child(3) {
+	text-align: center;
+}
+
+/* Crediti iniziali */
+tr th:nth-child(4),
+tr td:nth-child(4) {
+	text-align: center;
+}
+
+/* Crediti finali */
+tr th:nth-child(5),
+tr td:nth-child(5) {
+	text-align: center;
+}
+
+/* Squadra */
+tr th:nth-child(7),
+tr td:nth-child(7) {
+	text-align: center;
+}

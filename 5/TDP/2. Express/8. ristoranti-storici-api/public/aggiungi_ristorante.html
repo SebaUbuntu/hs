@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Inserimento ristorante</title>
+	<link rel="stylesheet" href="/css/aggiungi_ristorante.css" />
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="/topbar/topbar.js"></script>
+	</div>
+
+	<div id="main-content">
+		<h1>Inserimento Ristorante</h1>
+		<form id="restaurant-form">
+			<div>
+				<label for="nome">Nome del Ristorante:</label>
+				<input type="text" id="nome" name="nome" required />
+			</div>
+			<div>
+				<label for="provincia">Provincia:</label>
+				<select id="provincia" name="provincia" required></select>
+			</div>
+			<div>
+				<label for="indirizzo">Indirizzo:</label>
+				<input type="text" id="indirizzo" name="indirizzo" required />
+			</div>
+			<div>
+				<label for="anno_apertura">Anno di apertura:</label>
+				<input type="number" id="anno_apertura" name="anno_apertura" required />
+			</div>
+			<div>
+				<label for="specialita">Specialità:</label>
+				<input type="text" id="specialita" name="specialita" required />
+			</div>
+			<button type="submit">Aggiungi</button>
+		</form>
+	</div>
+
+	<script src="/js/aggiungi_ristorante.js"></script>
+</body>
+
+</html>

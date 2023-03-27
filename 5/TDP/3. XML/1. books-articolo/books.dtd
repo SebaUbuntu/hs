@@ -1,0 +1,9 @@
+<!ELEMENT books (book*)>
+<!ELEMENT book (entry,author,articleLink?)>
+<!ELEMENT entry (title, publisher)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT articleLink EMPTY>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ATTLIST entry isbn CDATA #REQUIRED>
+<!ATTLIST articleLink href CDATA #REQUIRED>

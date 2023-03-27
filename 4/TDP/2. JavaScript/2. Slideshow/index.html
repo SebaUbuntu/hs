@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="info">
+            <button onclick="setImmagine(ultimaImmagine-1)"> Indietro </button>
+            <button onclick="setImmagine(ultimaImmagine+1)"> Avanti </button>
+            <p id="numbertext">1 / 6</p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="anteprime" src="img_1.jpg" onclick="setImmagine(0)">
+            </div>
+            <div class="column">
+                <img class="anteprime" src="img_2.jpg" onclick="setImmagine(1)">
+            </div>
+            <div class="column">
+                <img class="anteprime" src="img_3.jpg" onclick="setImmagine(2)">
+            </div>
+            <div class="column">
+                <img class="anteprime" src="img_4.jpg" onclick="setImmagine(3)">
+            </div>
+            <div class="column">
+                <img class="anteprime" src="img_5.jpg" onclick="setImmagine(4)">
+            </div>
+            <div class="column">
+                <img class="anteprime" src="img_6.jpg" onclick="setImmagine(5)">
+            </div>
+        </div>
+
+        <div class="immagine-div">
+            <img id="img" src="img_1.jpg" style="width:100%">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

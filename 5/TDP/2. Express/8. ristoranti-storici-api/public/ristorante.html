@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Ristoranti storici</title>
+	<link rel="stylesheet" href="/css/ristorante.css">
+</head>
+
+<body>
+	<div id="topbar">
+		<script src="/topbar/topbar.js"></script>
+	</div>
+
+	<div id="main-content">
+		<div id="info-ristorante">
+			<p>Caricamento...</p>
+		</div>
+		<div>
+			<h2>Recensioni</h2>
+
+			<form id="recensione-form">
+				<div>
+					<label for="stelle">Stelle:</label>
+					<input type="number" id="stelle" name="stelle" min="1" max="5" required>
+				</div>
+				<div>
+					<label for="commento">Commento:</label>
+					<textarea id="commento" name="commento" required></textarea>
+				</div>
+				<button type="submit">Inserisci</button>
+			</form>
+	
+			<div id="recensioni"></div>
+		</div>
+	</div>
+
+	<script src="/js/ristorante.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<!ELEMENT libri (libreria, libro+)>
+<!ELEMENT libreria (#PCDATA)>
+<!ELEMENT libro (autore+, titolo, editore, prezzo?)>
+<!ELEMENT autore (#PCDATA)>
+<!ELEMENT titolo (#PCDATA)>
+<!ELEMENT editore (#PCDATA)>
+<!ELEMENT prezzo (#PCDATA)>
+<!ATTLIST libri aggiornamento CDATA #REQUIRED>
+<!ATTLIST libreria nome CDATA #REQUIRED>
+<!ATTLIST libreria indirizzo CDATA #REQUIRED>
+<!ATTLIST libro codice CDATA #REQUIRED>
+<!ATTLIST editore anno CDATA #IMPLIED>
+<!ATTLIST prezzo valuta CDATA #REQUIRED>

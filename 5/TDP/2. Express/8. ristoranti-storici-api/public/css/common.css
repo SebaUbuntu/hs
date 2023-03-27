@@ -1,0 +1,13 @@
+@import url('/fonts/stylesheet.css');
+
+* {
+    font-family: 'Open Sans';
+}
+
+body {
+	margin: 0;
+}
+
+#main-content {
+	padding: 0px 24px;
+}

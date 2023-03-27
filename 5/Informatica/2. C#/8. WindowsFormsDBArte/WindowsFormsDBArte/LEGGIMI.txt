@@ -1,0 +1,9 @@
+﻿Questo programma gestisce il DB Arte (quadri, artisti, musei) su MySql e per scopo didattico è volutamente leggero.
+Fondamentalmente c'e il meno possibile di interfaccia: la DataGridView e DataTable non sono tipizzate nel 
+designer ma si popola e struttura dinamicamente in runtime quando la relativa DataTable sorgente riceve i dati dal DB.
+Invece di progettazione ad alto livello con i vari wizard microsoft che farebbero tutta l'infrastruttura
+per interfacciare il DB con Dataset/Datatable in design-time ho preferito fare 'a mano' il codice che legge, inserisce, modifica, cancella i dati.
+Le modifiche al DB vengono tutte gestite dalla classe CLassMySqlDati che si occupa della connessione e di configurare 
+il MySqlDataAdapter per le 3 operazioni di modifica.
+
+Per funzionare questo programma necessità di aggiungere il connettore C#/MySQL (file MySql.Data.dll presente in questo progetto) ai riferimenti

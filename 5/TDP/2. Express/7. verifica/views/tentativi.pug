@@ -1,0 +1,22 @@
+html
+	head
+		title Tentativi quiz
+	body
+		h1 Tentativi quiz
+
+		table
+			tr
+				th Nome
+				th Cognome
+				th Punteggio
+				th Risultato
+			each tentativo in tentativi
+				tr
+					td= tentativo.nome
+					td= tentativo.cognome
+					td= tentativo.punteggio
+					td= tentativo.risultato
+		br
+
+		a(href="index.html")
+			button Home

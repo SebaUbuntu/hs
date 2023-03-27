@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    {
+      "item": "quartacinfmod:coal_coke_ore"
+    }
+  ],
+  "result": "quartacinfmod:coal_coke",
+  "experience": 1.5,
+  "cookingtime": 750
+}

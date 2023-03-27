@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lettera SYSTEM "lettera.dtd">
+<?xml-model href="lettera.xmlschema.xml" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<lettera>
+    <mittente>Pietro Pacciani</mittente>
+    <data>1998</data>
+    <destinatario>La Corte d'Assise</destinatario>
+    <oggetto>Poesia per la Pace</oggetto>
+    <saluto>Ho scritto una poesia,</saluto>
+    <corpo>
+        <paragrafo>Se ni' mondo esistesse un po' di bene,</paragrafo>
+        <paragrafo>e ognun si honsiderasse suo fratello,</paragrafo>
+        <paragrafo>ci sarebbe meno pensieri e meno pene,</paragrafo>
+        <paragrafo>e il mondo ne sarebbe assai più bello.</paragrafo>
+    </corpo>
+    <chiusura>Ma ora siamo davanti alla Corte d'Assise e lei è imputato di 16 omicidi</chiusura>
+    <firma>P. P.</firma>
+</lettera>

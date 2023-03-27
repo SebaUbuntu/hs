@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Modulo per le donazioni</title>
+</head>
+
+<body>
+    <h1>Modulo per le donazioni</h1>
+    <hr>
+
+    <form action="recuperadati" method="GET">
+        <div>
+            <p style="float: left;">Nome Completo * </p>
+            <div style="float: left;">
+                <input type="text" name="first_name"><br>
+                <label for="first_name">First name</label>
+            </div>
+            <div>
+                <input type="text" name="last_name"><br>
+                <label for="last_name">Last name</label>
+            </div>
+        </div><br>
+
+        <div>
+            E-mail * 
+            <input type="email" inputmode="email" name="email">
+        </div><br>
+
+        <div>
+            Numero di Telefono * 
+            <input type="text" name="prefisso">
+            <input type="text" name="numero_telefono">
+        </div><br>
+
+        <div>
+            Tipo di Donazione * 
+            <div>
+                <input type="radio" name="tipo_donazione" id="donazione_amorevole" value="Donazione amorevole"><label for="donazione_amorevole">Donazione amorevole</label><br>
+                <input type="radio" name="tipo_donazione" id="ampliamento_edificio" value="Ampliamento dell'edificio"><label for="ampliamento_edificio">Ampliamento dell'edificio</label><br>
+                <input type="radio" name="tipo_donazione" id="donazione_una_tantum" value="Donazione una tantum"><label for="donazione_una_tantum">Donazione una tantum</label><br>
+            </div>
+        </div><br>
+
+        <div>
+            Importo Donazione * 
+            <input type="number" name="importo" size="6"><label for="importo">USD</label>
+        </div><br>
+
+        <div>
+            Commenti 
+            <textarea id="commenti" name="commenti"></textarea>
+        </div><br>
+
+        <input type="submit" value="Invia Dati">
+        <input type="reset" value="Cancella">
+    </form>
+</body>
+
+</html>

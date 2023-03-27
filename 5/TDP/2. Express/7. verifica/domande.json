@@ -1,0 +1,32 @@
+[
+	{
+		"domanda": "Di che colore è il cavallo bianco di Napoleone?",
+		"risposte": [
+			"Grigio",
+			"Blu",
+			"Bianco",
+			"Nero"
+		],
+		"corretta": 2
+	},
+	{
+		"domanda": "Qual'è il nome di Obama, ex presidente degli Stati Uniti?",
+		"risposte": [
+			"Donald",
+			"Barack",
+			"Joe",
+			"Soda"
+		],
+		"corretta": 1
+	},
+	{
+		"domanda": "Che squadra ha vinto la UEFA Champions League nel 2007?",
+		"risposte": [
+			"FC Barcelona",
+			"Stella Rossa di Belgrado",
+			"Liverpool FC",
+			"AC Milan"
+		],
+		"corretta": 3
+	}
+]
